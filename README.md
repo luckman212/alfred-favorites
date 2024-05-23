@@ -10,6 +10,8 @@ A simple app/file/folder launcher that supports keyword matching.
 
 Edit the configuration file (see `favorites.json` in this Workflow's directory for an example). If you want to store your config in a custom path, make sure to set it in the Workflow Configuration.
 
+Use the `keywords` key in the config to specify additional match words to assist with your searches.
+
 ### Discussion
 
 https://www.alfredforum.com/topic/21855-pre-defined-list-of-apps-to-open-in-a-script-filter/
