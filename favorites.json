@@ -1,0 +1,13 @@
+[
+	{ "name": "Calendar",
+		"path": "/System/Applications/Calendar.app",
+		"keywords": [ "dates", "appointments", "schedule", "meetings", "reminders" ]
+	},
+	{ "name": "Notes",
+		"path": "/System/Applications/Notes.app",
+		"keywords": [ "notepad", "journal" ]
+	},
+	{ "name": "Downloads ƒ",
+		"path": "~/Downloads"
+	}
+]

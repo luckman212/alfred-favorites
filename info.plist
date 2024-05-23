@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.luckman212.favorites</string>
+	<key>connections</key>
+	<dict>
+		<key>EEC9C642-A199-4470-A907-2AF726E8F6BF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F822F560-CC69-42EF-AA76-E40878A8F2FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>luckman212</string>
+	<key>description</key>
+	<string>Launch your favorite apps, files or folders</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Favorites</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>fav</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>favorites.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Favorites</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EEC9C642-A199-4470-A907-2AF726E8F6BF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>F822F560-CC69-42EF-AA76-E40878A8F2FA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>### Purpose
+
+A simple app/file/folder launcher that supports keyword matching.
+
+### How to set up
+
+Edit the configuration file (see `favorites.json` in this Workflow's directory for an example). If you want to store your config in a custom path, make sure to set it in the Workflow Configuration.
+
+### Discussion
+
+https://www.alfredforum.com/topic/21855-pre-defined-list-of-apps-to-open-in-a-script-filter/</string>
+	<key>uidata</key>
+	<dict>
+		<key>EEC9C642-A199-4470-A907-2AF726E8F6BF</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>F822F560-CC69-42EF-AA76-E40878A8F2FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>250</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>favorites.json</string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>placeholder</key>
+				<string>favorites.json</string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>configuration (JSON format)</string>
+			<key>label</key>
+			<string>Config file</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>cfg</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/luckman212/alfred-favorites</string>
+</dict>
+</plist>
