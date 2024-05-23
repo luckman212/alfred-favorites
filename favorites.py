@@ -14,10 +14,11 @@ except:
 	pass
 
 for a in data:
+	n = a.get('name')
 	items.append({
-		'title': a.get('name'),
+		'title': n,
 		'arg': a.get('path'),
-		'match': ' '.join(a.get('keywords', [])),
+		'match': ' '.join([n] + a.get('keywords', [])),
 		'icon': { 'type': 'fileicon', 'path': a.get('path') }
 	})
 

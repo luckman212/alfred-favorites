@@ -96,13 +96,17 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>### Purpose
+	<string>## Alfred Favorites Workflow
+
+### Purpose
 
 A simple app/file/folder launcher that supports keyword matching.
 
 ### How to set up
 
 Edit the configuration file (see `favorites.json` in this Workflow's directory for an example). If you want to store your config in a custom path, make sure to set it in the Workflow Configuration.
+
+Use the `keywords` key in the config to specify additional match words to assist with your searches.
 
 ### Discussion
 
@@ -149,7 +153,7 @@ https://www.alfredforum.com/topic/21855-pre-defined-list-of-apps-to-open-in-a-sc
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/luckman212/alfred-favorites</string>
 </dict>
